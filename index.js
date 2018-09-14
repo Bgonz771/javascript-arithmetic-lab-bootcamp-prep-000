@@ -40,8 +40,7 @@ return results;
   
 }
 
-function Int (x, base ) {
-  var parsed = parseInt(x, base);
+function Int (x, base = 10 ) {     var parsed = parseInt(x, base);
   if (isNaN(parsed)) { return "NaN" }
   return parsed 
 }
