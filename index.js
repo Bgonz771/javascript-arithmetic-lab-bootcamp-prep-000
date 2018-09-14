@@ -45,5 +45,8 @@ function makeInt (x, base = 10 ) {     var parsed = parseInt(x, base);
   return parsed 
 }
 
+function (r) {
+  return parseFloat(r) * 2.0 * Math.PI;
+}
   
 
