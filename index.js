@@ -46,7 +46,7 @@ function makeInt (x, base = 10 ) {     var parsed = parseInt(x, base);
 }
 
 function preserveDecimal (n) {
-  return parseFloat(r) * 2.0 * Math.PI;
+  return parseFloat(n) * 2.0 * Math.PI;
 }
   
 
